@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>유시우 | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-logo">YSW</div>
+      <ul class="nav-links">
+        <li><a href="#about">소개</a></li>
+        <li><a href="#study">공부기록</a></li>
+        <li><a href="#assignments">제출과제</a></li>
+        <li><a href="#project">팀프로젝트</a></li>
+        <li><a href="#contact">주소</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </nav>
+
+    <section id="hero">
+      <div class="hero-content">
+        <p class="hero-sub">안녕하세요 👋</p>
+        <h1 class="hero-title">
+          저는 <span class="highlight">유시우</span>입니다
+        </h1>
+        <p class="hero-desc">
+          정보보호학 전공을 공부하고 있는 대학교 2학년 입니다.<br />웹
+          프로그래밍, 리눅스, 자료구조를 주로 배우고 있습니다.
+        </p>
+        <div class="hero-btns">
+          <a href="#project" class="btn-primary">프로젝트 보기</a>
+          <a
+            href="https://github.com/usi6414"
+            target="_blank"
+            class="btn-outline"
+            >GitHub</a
+          >
+        </div>
+      </div>
+      <div class="hero-img">
+        <div class="avatar">YSW</div>
+      </div>
+    </section>
+
+    <!-- 소개 -->
+    <section id="about">
+      <div class="section-inner">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <span class="card-icon">🎓</span>
+            <h3>학력</h3>
+            <p>대학교 2학년<br />정보보호학 전공 수업 수강 중</p>
+          </div>
+          <div class="about-card">
+            <span class="card-icon">📚</span>
+            <h3>현재 목표</h3>
+            <p>기초부터 탄탄하게 전공 마스터<br />포트폴리오 쌓기</p>
+            <p>3대 500</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 공부 기록 -->
+    <section id="study">
+      <div class="section-inner">
+        <h2 class="section-title">공부 내용 정리</h2>
+        <p class="section-sub">수업에서 배운 내용들을 정리했습니다.</p>
+        <div class="study-blocks">
+          <div class="study-block">
+            <h3 class="study-block-title">📄 HTML</h3>
+            <ul class="learn-list">
+              <li>
+                HTML 문서 기본 구조 (<code>DOCTYPE</code>, <code>html</code>,
+                <code>head</code>, <code>body</code>)
+              </li>
+              <li>
+                시맨틱 태그 (<code>header</code>, <code>nav</code>,
+                <code>main</code>, <code>section</code>, <code>article</code>,
+                <code>footer</code>)
+              </li>
+              <li>
+                텍스트 태그 — 제목(<code>h1~h6</code>), 단락(<code>p</code>),
+                줄바꿈(<code>br</code>)
+              </li>
+            </ul>
+          </div>
+
+          <div class="study-block">
+            <h3 class="study-block-title">🎨 CSS</h3>
+            <ul class="learn-list">
+              <li>텍스트 스타일 — 글꼴, 크기, 색상, 정렬</li>
+              <li>
+                박스 모델 — <code>margin</code>, <code>padding</code>,
+                <code>border</code>
+              </li>
+              <li>레이아웃으로 요소 배치하기</li>
+              <li>배경 이미지 및 그러데이션 효과</li>
+            </ul>
+          </div>
+
+          <div class="study-block">
+            <h3 class="study-block-title">⚡ JavaScript</h3>
+            <ul class="learn-list">
+              <li>자바스크립트로 웹 요소 제어하기</li>
+              <li>
+                <code>script</code> 태그로 JS 작성하기 / 외부 파일 연결하기
+              </li>
+              <li>
+                기본 입출력 — <code>alert()</code>, <code>confirm()</code>,
+                <code>prompt()</code>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 제출 과제 -->
+    <section id="assignments">
+      <div class="section-inner">
+        <h2 class="section-title">제출 과제</h2>
+        <p class="section-sub">수업에서 제출한 과제들입니다.</p>
+        <div class="assignment-grid">
+          <div class="assignment-card">
+            <div class="assignment-num">01</div>
+            <div class="assignment-info">
+              <h3>HCJDemo 프로젝트</h3>
+              <p>HTML, CSS 를 함께 활용해서 만든 데모 프로젝트입니다.</p>
+              <div class="assignment-tags">
+                <span>HTML</span><span>CSS</span>
+              </div>
+            </div>
+            <a
+              href="https://hcj1-opal.vercel.app/"
+              target="_blank"
+              class="btn-primary"
+              >🔗 구경가기</a
+            >
+          </div>
+          <div class="assignment-card">
+            <div class="assignment-num">02</div>
+            <div class="assignment-info">
+              <h3>HTML 기본 태그 익히기</h3>
+              <p>
+                HTML 기본 태그를 직접 사용해보며 웹 페이지 구조를 이해했습니다.
+              </p>
+              <div class="assignment-tags">
+                <span>HTML</span>
+              </div>
+            </div>
+            <a
+              href="https://hcj1-opal.vercel.app/"
+              target="_blank"
+              class="btn-primary"
+              >🔗 구경가기</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 팀 프로젝트 -->
+    <section id="project">
+      <div class="section-inner">
+        <h2 class="section-title">팀 프로젝트</h2>
+        <p class="section-sub">수업에서 진행한 팀 프로젝트입니다</p>
+        <div class="project-grid">
+          <div class="project-card featured">
+            <div class="project-badge">중간발표 ✅ 완료</div>
+            <h3>팀 프로젝트 중간발표</h3>
+            <p>
+              팀원들과 함께 협력하여 웹 프로젝트를 기획하고 개발했습니다. HTML,
+              CSS, JavaScript를 활용해 직접 구현하고 Vercel로 배포까지
+              완료했습니다.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>Vercel</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://team-project-chi.vercel.app/"
+                target="_blank"
+                class="btn-primary"
+                >🔗 사이트 보기</a
+              >
+            </div>
+          </div>
+          <div class="project-card upcoming">
+            <div class="project-badge preparing">기말발표 🔧 준비중</div>
+            <h3>팀 프로젝트 기말발표</h3>
+            <p>
+              현재 팀원들과 함께 기말 프로젝트를 열심히 개발 중입니다.
+              중간발표에서 피드백을 반영해 더 완성도 있는 결과물을 만들
+              예정입니다.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span
+              ><span>GitHub</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/usi6414"
+                target="_blank"
+                class="btn-outline"
+                >GitHub 저장소</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 연락처 -->
+    <section id="contact">
+      <div class="section-inner">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-sub">블로그와 GitHub에서 저를 찾을 수 있어요!</p>
+        <div class="contact-grid">
+          <a
+            href="https://blog.naver.com/yhjk5620"
+            target="_blank"
+            class="contact-card"
+          >
+            <span class="contact-icon">📝</span>
+            <h3>네이버 블로그</h3>
+            <p>제가 공부한 내용을 정리한 블로그예요</p>
+            <span class="contact-link">blog.naver.com/yhjk5620 →</span>
+          </a>
+          <a
+            href="https://github.com/usi6414"
+            target="_blank"
+            class="contact-card"
+          >
+            <span class="contact-icon">💾</span>
+            <h3>GitHub</h3>
+            <p>저의 GitHub을 구경할수있어요.</p>
+            <span class="contact-link">github.com/usi6414 →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
